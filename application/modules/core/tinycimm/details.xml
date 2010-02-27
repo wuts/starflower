@@ -2,11 +2,13 @@
 <module version="0.2">
 	<name>
 		<en>TinyCIMM</en>
-		<en>TinyCIMM</en>
+		<fr>TinyCIMM</fr>
+		<zh_CN>TinyCIMM</zh_CN>
 	</name>
 	<description>
 		<en>TinyMCE Image Manager</en>
 		<fr>Gestionnaire d'image TinyMCE</fr>
+		<fr>TinyMCE 图片管理</fr>
 	</description>
 	<is_frontend>0</is_frontend>
 	<is_backend>1</is_backend>

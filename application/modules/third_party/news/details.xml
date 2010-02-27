@@ -5,12 +5,13 @@
 		<es>Artículos</es>
 		<fr>Actualités</fr>
 		<de>News</de>
+		<zh_CN>消息</zh_CN>
 	</name>
 	<description>
 		<en>Post news articles and blog entries.</en>
 		<es>Escribe entradas para los artículos y blogs (web log).</es>
 		<fr>Envoyez de nouveaux articles et messages de blog.</fr>
-		<de>Veröffentliche neue Artikel und Blog-Einträge</de>
+		<de>发表新文章或者添加博客条目</de>
 	</description>
 	<is_frontend>1</is_frontend>
 	<is_backend>1</is_backend>

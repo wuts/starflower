@@ -5,12 +5,14 @@
 		<es>Variables</es>
 		<fr>Variables</fr>
 		<de>Variables</de>
+		<zh_CN>变量</zh_CN>
 	</name>
 	<description>
 		<en>Manage global variables to access from everywhere.</en>
 		<es>Manage global variables to access from everywhere.</es>
 		<fr>Manage global variables to access from everywhere.</fr>
 		<de>Manage global variables to access from everywhere.</de>
+		<zh_CN>管理可以从任何地方访问的全局变量.</zh_CN>
 	</description>
 	<is_frontend>0</is_frontend>
 	<is_backend>1</is_backend>

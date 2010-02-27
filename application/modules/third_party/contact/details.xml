@@ -5,12 +5,14 @@
 		<es>Contacto</es>
 		<fr>Contact</fr>
 		<de>Kontakt</de>
+		<zh_CN>联系我们</zh_CN>
 	</name>
 	<description>
 		<en>Adds a form to your site that allows visitors to send email's to you without discolosing an email address to them.</en>
 		<es>Añade un formulario a tu sitio que permitirá a los visitantes enviarte correos electrónicos a ti sin darles tu dirección de correo directamente a ellos.</es>
 		<fr>Ajoute un formulaire à votre site qui permet aux visiteurs de vous envoyer un e-mail sans révéler votre adresse e-mail'</fr>
 		<de>Fügt ein Formular hinzu, welches Besuchern erlaubt dir Emails zu schreiben, ohne deine Email-Adresse ihnen offen zu legen.</de>
+		<zh_CN>添加一个表单允许访问者给您的发送电子邮件而不用暴露他们的电子邮件地址.</zh_CN>
 	</description>
 	<is_frontend>1</is_frontend>
 	<is_backend>0</is_backend>

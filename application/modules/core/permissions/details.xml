@@ -4,11 +4,13 @@
 		<en>Permissions</en>
 		<es>Permisos</es>
 		<fr>Permissions</fr>
+		<zh_CN>权限</zh_CN>
 	</name>
 	<description>
 		<en>Control what type of users can see certain sections within the site.</en>
 		<es>Controla que tipo de usuarios pueden ver secciones específicas dentro del sitio.</es>
 		<fr>Permet de contrôler quel rôle utilisateur peut visualiser certaines parties du site.</fr>
+		<zh_CN>控制哪类用户可以访问您网站的哪些部分.</zh_CN>
 	</description>
 	<is_frontend>0</is_frontend>
 	<is_backend>1</is_backend>

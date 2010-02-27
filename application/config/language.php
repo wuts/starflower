@@ -19,7 +19,8 @@ $config['supported_languages'] = array(
 	'en'=> array('name' => 'English', 'folder' => 'english'),
 	'es'=> array('name' => 'Espa&ntilde;ol', 'folder' => 'spanish'),
 	'fr'=> array('name' => 'Français', 'folder' => 'french'),
-	'de'=> array('name' => 'German', 'folder' => 'german')
+	'de'=> array('name' => 'German', 'folder' => 'german'),
+	'zh_CN'=> array('name' => '简体中文', 'folder' => 'simplified_chinese')
 );
 
 /*
@@ -32,6 +33,6 @@ $config['supported_languages'] = array(
 |	en
 |
 */
-$config['default_language'] = 'en';
+$config['default_language'] = 'zh_CN';
 
 ?>
