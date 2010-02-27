@@ -1,24 +1,24 @@
 <?php
 
-$lang['required'] 			= "The %s field is required.";
-$lang['isset']				= "The %s field must have a value.";
-$lang['valid_email']		= "The %s field must contain a valid email address.";
-$lang['valid_emails'] 		= "The %s field must contain all valid email addresses.";
-$lang['valid_url'] 			= "The %s field must contain a valid URL.";
-$lang['valid_ip'] 			= "The %s field must contain a valid IP.";
-$lang['min_length']			= "The %s field must be at least %s characters in length.";
-$lang['max_length']			= "The %s field can not exceed %s characters in length.";
-$lang['exact_length']		= "The %s field must be exactly %s characters in length.";
-$lang['alpha']				= "The %s field may only contain alphabetical characters.";
-$lang['alpha_numeric']		= "The %s field may only contain alpha-numeric characters.";
-$lang['alpha_dash']			= "The %s field may only contain alpha-numeric characters, underscores, and dashes.";
-$lang['numeric']			= "The %s field must contain a number.";
-$lang['is_numeric']			= "The %s field must contain a number.";
-$lang['integer']			= "The %s field must contain an integer.";
-$lang['matches']			= "The %s field does not match the %s field.";
-$lang['is_natural']			= "The %s field must contain a number.";
-$lang['is_natural_no_zero']	= "The %s field must contain a number greater than zero.";
+$lang['required'] 			= "%s 必须填写.";
+$lang['isset']				= "%s 一定要有内容.";
+$lang['valid_email']		= "%s 必须填写正确的email信箱.";
+$lang['valid_emails'] 		= "%s 所有必须填写正确的email信箱.";
+$lang['valid_url'] 			= "%s 必须填写正确的网址.";
+$lang['valid_ip'] 			= "%s 必须填写正确的IP地址.";
+$lang['min_length']			= "%s 字符串长度至少要 %s 个字.";
+$lang['max_length']			= "%s 字符串长度不可超过 %s 个字.";
+$lang['exact_length']		= "%s 字符串长度必须刚好 %s 个字.";
+$lang['alpha']				= "%s 只能填写英文字母.";
+$lang['alpha_numeric']		= "%s 只能填写数字英文字母及数字.";
+$lang['alpha_dash']			= "%s 只能填写英文字母、数字、底线(_)或破折号(-)";
+$lang['numeric']			= "%s 必须包含数字.";
+$lang['is_numeric']			= "%s 必须包含数字.";
+$lang['integer']			= "%s 必须包含整数数字(不可小数点).";
+$lang['matches']			= "%s 与 %s 两者不相符合.";
+$lang['is_natural']			= "%s 必须包含数字(不可有负值、小数点).";
+$lang['is_natural_no_zero']	= "%s 必须包含大于零的数字.";
 
 
 /* End of file validation_lang.php */
-/* Location: ./system/language/english/validation_lang.php */
+/* Location: ./system/language/chinese_traditional/validation_lang.php */
