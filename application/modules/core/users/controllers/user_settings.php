@@ -36,7 +36,7 @@ class User_settings extends Public_Controller
 			'settings_confirm_password'	=>	($this->input->post('settings_password') ? 'required|' : '').'matches[settings_password]',
 			'settings_email'			=>	'required|valid_email',
 			'settings_confirm_email'	=>	'valid_email|matches[settings_email]',
-			'settings_lang'				=>	'alpha|max_length[2]'
+			'settings_lang'				=>	'required|max_length[10]'
 		);
 			
 	    $this->validation->set_rules($rules);
