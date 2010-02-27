@@ -10,8 +10,8 @@ sprintf($this->lang->line('sbm_post_to'), 'social-network e.g "Facebook" or "Del
 */
 
 // general bookmarks
-$lang['sbm_post_to'] = 'Post this story to %s';
+$lang['sbm_post_to'] = '发表这篇文章到 %s';
 
 // toolbar
-$lang['tb_title'] = 'Share this with others';
+$lang['tb_title'] = '与人共享';
 ?>
