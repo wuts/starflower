@@ -5,31 +5,31 @@ $lang['page_layouts.html_label'] 					= 'HTML';
 $lang['page_layouts.css_label'] 					= 'CSS';
 
 // labels
-$lang['page_layouts.updated_label'] 				= 'ÒÑ¸üÐÂ';
-$lang['page_layouts.actions_label'] 				= '²Ù×÷';
-$lang['page_layouts.title_label'] 					= '±êÌâ';
+$lang['page_layouts.updated_label'] 				= 'å·²æ›´æ–°';
+$lang['page_layouts.actions_label'] 				= 'æ“ä½œ';
+$lang['page_layouts.title_label'] 					= 'æ ‡é¢˜';
 
-$lang['page_layouts.edit_label'] 					= '±à¼­';
-$lang['page_layouts.delete_label'] 					= 'É¾³ý';
+$lang['page_layouts.edit_label'] 					= 'ç¼–è¾‘';
+$lang['page_layouts.delete_label'] 					= 'åˆ é™¤';
 
 // titles
-$lang['page_layouts.create_title'] 					= 'Ìí¼ÓÒ³Ãæ²¼¾Ö';
-$lang['page_layouts.edit_title'] 					= '±à¼­Ò³Ãæ "%s" ²¼¾Ö';
+$lang['page_layouts.create_title'] 					= 'æ·»åŠ é¡µé¢å¸ƒå±€';
+$lang['page_layouts.edit_title'] 					= 'ç¼–è¾‘é¡µé¢ "%s" å¸ƒå±€';
 
 // messages
-$lang['page_layouts.no_pages'] 						= '²»´æÔÚÒ³Ãæ²¼¾Ö.';
-$lang['page_layouts.create_success'] 				= 'Ò³Ãæ²¼¾ÖÒÑ´´½¨.';
-$lang['page_layouts.create_error'] 					= 'Ò³Ãæ²¼¾ÖÃ»ÓÐ´´½¨.';
-$lang['page_layouts.page_layout.not_found_error']	= 'Ò³Ãæ²¼¾Ö²»´æÔÚ.';
-$lang['page_layouts.edit_success'] 					= 'Ò³Ãæ²¼¾Ö "%s" ÒÑ±£´æ.';
-$lang['page_layouts.delete_home_error'] 			= 'Äú²»ÄÜÉ¾³ýÄ¬ÈÏµÄÒ³Ãæ²¼¾Ö.';
-$lang['page_layouts.delete_success']				= 'Ò³Ãæ²¼¾Ö #%s ÒÑÉ¾³ý.';
-$lang['page_layouts.mass_delete_success'] 			= '%s page layouts have been deleted.';
-$lang['page_layouts.delete_none_notice'] 			= 'No page layouts were deleted.';
-$lang['page_layouts.already_exist_error'] 			= 'A page layout with the slug "%s" already exists.';
+$lang['page_layouts.no_pages'] 						= 'ä¸å­˜åœ¨é¡µé¢å¸ƒå±€.';
+$lang['page_layouts.create_success'] 				= 'é¡µé¢å¸ƒå±€å·²åˆ›å»º.';
+$lang['page_layouts.create_error'] 					= 'é¡µé¢å¸ƒå±€æ²¡æœ‰åˆ›å»º.';
+$lang['page_layouts.page_layout.not_found_error']	= 'é¡µé¢å¸ƒå±€ä¸å­˜åœ¨.';
+$lang['page_layouts.edit_success'] 					= 'é¡µé¢å¸ƒå±€ "%s" å·²ä¿å­˜.';
+$lang['page_layouts.delete_home_error'] 			= 'æ‚¨ä¸èƒ½åˆ é™¤é»˜è®¤çš„é¡µé¢å¸ƒå±€.';
+$lang['page_layouts.delete_success']				= 'é¡µé¢å¸ƒå±€ #%s å·²åˆ é™¤.';
+$lang['page_layouts.mass_delete_success'] 			= 'é¡µé¢å¸ƒå±€ %s å·²åˆ é™¤.';
+$lang['page_layouts.delete_none_notice'] 			= 'æ²¡æœ‰é¡µé¢å¸ƒå±€è¢«åˆ é™¤.';
+$lang['page_layouts.already_exist_error'] 			= 'ä¸€ä¸ªslugä¸º "%s" çš„é¡µé¢å¸ƒå±€å·²å­˜åœ¨.';
 
-$lang['page_layouts.variable_introduction']			= 'In this input box there are two variables available';
-$lang['page_layouts.variable_title']				= 'Contains the title of the page.';
-$lang['page_layouts.variable_body']					= 'Contains the HTML body of the page.';
+$lang['page_layouts.variable_introduction']			= 'åœ¨è¿™ä¸ªè¾“å…¥æ¡†ä¸­å­˜åœ¨ä¸¤ä¸ªå˜é‡';
+$lang['page_layouts.variable_title']				= 'åŒ…å«é¡µé¢æ ‡é¢˜.';
+$lang['page_layouts.variable_body']					= 'åŒ…å«é¡µé¢çš„HTMLä¸»ä½“éƒ¨åˆ†.';
 
 ?>

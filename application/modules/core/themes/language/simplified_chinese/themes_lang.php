@@ -1,24 +1,24 @@
 <?php
 
-$lang['themes.set_default_success']		= 'The theme "%s" is now your new default theme.';
-$lang['themes.set_default_error']		= 'Unable to set "%s" as your new default theme.';
-$lang['themes.already_exists_error'] 	= 'There is already a theme with this name.';
-$lang['themes.extract_error']			= 'Unable to extract theme.';
-$lang['themes.upload_success']			= 'Template Successfully Uploaded.';
-$lang['themes.default_delete_error']	= 'You cannot delete the default theme.';
-$lang['themes.delete_error']			= 'Unable to delete dir "%s".';
+$lang['themes.set_default_success']		= '主题 "%s" 已成为您的默认主题.';
+$lang['themes.set_default_error']		= '不能设置 "%s" 为您的默认主题.';
+$lang['themes.already_exists_error'] 	= '已经存在一个相同名字的主题.';
+$lang['themes.extract_error']			= '不能解开主题.';
+$lang['themes.upload_success']			= '模板已成功上传.';
+$lang['themes.default_delete_error']	= '您不能删除您的默认主题.';
+$lang['themes.delete_error']			= '不能删除目录 "%s".';
 $lang['themes.mass_delete_success'] 	= '%s themes out of %s themes successfully deleted.';
-$lang['themes.mass_delete_error']		= '%s themes out of %s themes successfully deleted.';
-$lang['themes.delete_select_error'] 	= 'You need to select themes to delete first.';
-$lang['themes.upload_title']			= 'Upload theme';
-$lang['themes.list_label']				= 'Theme list';
-$lang['themes.upload_desc']				= 'Please select a file and click Upload button';
+$lang['themes.mass_delete_error']		= '%s themes out of %s themes NOT successfully deleted.';
+$lang['themes.delete_select_error'] 	= '您必先选中要删除的主题.';
+$lang['themes.upload_title']			= '上传主题';
+$lang['themes.list_label']				= '主题列表';
+$lang['themes.upload_desc']				= '请选择一个文件并点击上传按钮';
 
-$lang['themes.theme_label'] 			= 'Theme';
-$lang['themes.actions_label']			= 'Actions';
-$lang['themes.make_default']			= 'Make default';
-$lang['themes.delete']					= 'Delete';
-$lang['themes.default_theme_label'] 	= 'Default theme';
-$lang['themes.no_themes_installed'] 	= 'There are no themes installed.';
+$lang['themes.theme_label'] 			= '主题';
+$lang['themes.actions_label']			= '操作';
+$lang['themes.make_default']			= '设为默认';
+$lang['themes.delete']					= '删除';
+$lang['themes.default_theme_label'] 	= '默认主题';
+$lang['themes.no_themes_installed'] 	= '没有安装任何主题.';
 
 ?>

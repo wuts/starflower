@@ -1,29 +1,29 @@
 <?php
 
 // labels
-$lang['contact_details_label'] 								= 'ÏêÏ¸ÐÅÏ¢';
-$lang['contact_name_label']										= 'È«Ãû';
-$lang['contact_email_label']									= 'µç×ÓÓÊÏä';
-$lang['contact_company_name_label']						= '¹«Ë¾»ò»ú¹¹';
-$lang['contact_subject_label']								= 'Ö÷Ìâ';
-$lang['contact_other_label']									= 'ÆäËû';
-$lang['contact_message_label']								= 'ÏûÏ¢';
-$lang['contact_send_label'] 									= '·¢ËÍ';
-$lang['contact_mail_ip_label'] 								= 'IPµØÖ·: ';
-$lang['contact_mail_os_label'] 								= '²Ù×÷ÏµÍ³: ';
-$lang['contact_mail_agent_label'] 						= '´úÀí: ';
-$lang['contact_mail_name_label'] 							= 'ÄêÁä:';
-$lang['contact_mail_company_label'] 					= '¹«Ë¾:';
-$lang['contact_mail_above_message_label'] 		= '-- ÒÔÏÂÊÇÏûÏ¢ÄÚÈÝ ---';
-$lang['contact_mail_below_message_label'] 		= '-- ·¢³öµØÏêÏ¸ÐÅÏ¢ -----------';
+$lang['contact_details_label'] 								= 'è¯¦ç»†ä¿¡æ¯';
+$lang['contact_name_label']										= 'å…¨å';
+$lang['contact_email_label']									= 'ç”µå­é‚®ç®±';
+$lang['contact_company_name_label']						= 'å…¬å¸æˆ–æœºæž„';
+$lang['contact_subject_label']								= 'ä¸»é¢˜';
+$lang['contact_other_label']									= 'å…¶ä»–';
+$lang['contact_message_label']								= 'æ¶ˆæ¯';
+$lang['contact_send_label'] 									= 'å‘é€';
+$lang['contact_mail_ip_label'] 								= 'IPåœ°å€: ';
+$lang['contact_mail_os_label'] 								= 'æ“ä½œç³»ç»Ÿ: ';
+$lang['contact_mail_agent_label'] 						= 'ä»£ç†: ';
+$lang['contact_mail_name_label'] 							= 'å¹´é¾„:';
+$lang['contact_mail_company_label'] 					= 'å…¬å¸:';
+$lang['contact_mail_above_message_label'] 		= '-- ä»¥ä¸‹æ˜¯æ¶ˆæ¯å†…å®¹ ---';
+$lang['contact_mail_below_message_label'] 		= '-- å‘å‡ºåœ°è¯¦ç»†ä¿¡æ¯ -----------';
 
 // titles
-$lang['contact_sent_title'] 									= 'ÏûÏ¢ÒÑ·¢ËÍ';
+$lang['contact_sent_title'] 									= 'æ¶ˆæ¯å·²å‘é€';
 $lang['contact_title'] 												= 'Contact';
 
 // texts
 $lang['contact_mail_text'] 										= 'This message was sent via the contact form on %s with the following details:';
-$lang['contact_sent_text'] 										= 'ÄúµÄÏûÏ¢ÒÑ·¢ËÍ£¬ÎÒÃÇ½«¾¡¿ì¸úÄú»Ø¸´Äú.';
-$lang['contact_capchar_text'] 								= 'Ìá½»Äú¿´µ½µÄÒÔÏÂµ¥´Ê£º';
+$lang['contact_sent_text'] 										= 'æ‚¨çš„æ¶ˆæ¯å·²å‘é€ï¼Œæˆ‘ä»¬å°†å°½å¿«è·Ÿæ‚¨å›žå¤æ‚¨.';
+$lang['contact_capchar_text'] 								= 'æäº¤æ‚¨çœ‹åˆ°çš„ä»¥ä¸‹å•è¯ï¼š';
 
 ?>

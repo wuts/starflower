@@ -1,25 +1,25 @@
 <?php
 
-$lang['photos.title'] 							= 'Í¼Ïñ';
+$lang['photos.title'] 							= 'å›¾ç‰‡';
 
 // labels
-$lang['photos.upload_label'] 					= 'ÉÏ´«';
-$lang['photos.photo_label'] 					= 'ÕÕÆ¬';
-$lang['photos.desc_label'] 						= 'ÃèÊö';
-$lang['photos.view_label'] 						= '²é¿´';
-$lang['photos.edit_label'] 						= '±à¼­';
-$lang['photos.delete_label'] 					= 'É¾³ý';
-$lang['photos.title_label'] 					= '±êÌâ';
+$lang['photos.upload_label'] 					= 'ä¸Šä¼ ';
+$lang['photos.photo_label'] 					= 'å›¾ç‰‡';
+$lang['photos.desc_label'] 						= 'æè¿°';
+$lang['photos.view_label'] 						= 'æŸ¥çœ‹';
+$lang['photos.edit_label'] 						= 'ç¼–è¾‘';
+$lang['photos.delete_label'] 					= 'åˆ é™¤';
+$lang['photos.title_label'] 					= 'æ ‡é¢˜';
 
-$lang['photos.upload_success'] 					= 'Í¼ÏñÉÏ´«³É¹¦.';
-$lang['photos.upload_error'] 					= 'ÉÏ´«Í¼ÏñÊ±³ö´í "%s".';
-$lang['photos.delete_no_select_error'] 			= 'ÄúÐèÒªÉ¾³ýÒ»¸ö»òÕß¶à¸öÍ¼Ïñ.';
-$lang['photos.delete_success'] 					= '³É¹¦É¾³ýÍ¼Ïñ %s .';
-$lang['photos.delete_error'] 					= 'Ã»ÓÐÍ¼Ïñ±»É¾³ý.';
+$lang['photos.upload_success'] 					= 'å›¾ç‰‡ä¸Šä¼ æˆåŠŸ.';
+$lang['photos.upload_error'] 					= 'ä¸Šä¼ å›¾ç‰‡æ—¶å‡ºé”™ "%s".';
+$lang['photos.delete_no_select_error'] 			= 'æ‚¨éœ€è¦åˆ é™¤ä¸€ä¸ªæˆ–è€…å¤šä¸ªå›¾ç‰‡.';
+$lang['photos.delete_success'] 					= 'æˆåŠŸåˆ é™¤å›¾ç‰‡ %s .';
+$lang['photos.delete_error'] 					= 'æ²¡æœ‰å›¾ç‰‡è¢«åˆ é™¤.';
 
 // messages
-$lang['photos.delete_no_select_error'] 			= 'ÄúÐèÒªÉ¾³ýÒ»¸ö»òÕß¶à¸öÍ¼Ïñ.';
-$lang['photos.photo_delete_success'] 			= '³É¹¦É¾³ýÍ¼Ïñ %s .';
-$lang['photos.photo_delete_error'] 				= 'Ã»ÓÐÍ¼Ïñ±»É¾³ý.';
+$lang['photos.delete_no_select_error'] 			= 'æ‚¨éœ€è¦åˆ é™¤ä¸€ä¸ªæˆ–è€…å¤šä¸ªå›¾ç‰‡.';
+$lang['photos.photo_delete_success'] 			= 'æˆåŠŸåˆ é™¤å›¾ç‰‡ %s .';
+$lang['photos.photo_delete_error'] 				= 'æ²¡æœ‰å›¾ç‰‡è¢«åˆ é™¤.';
 
 ?>

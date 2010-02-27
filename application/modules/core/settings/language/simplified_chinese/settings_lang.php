@@ -1,6 +1,6 @@
 <?php
 
-$lang['settings_save_success'] 		= 'ÉèÖÃÒÑ±£´æ!';
-$lang['settings_edit_title'] 			= '±à¼­ÉèÖÃ';
+$lang['settings_save_success'] 		= 'è®¾ç½®å·²ä¿å­˜!';
+$lang['settings_edit_title'] 			= 'ç¼–è¾‘è®¾ç½®';
 
 ?>
