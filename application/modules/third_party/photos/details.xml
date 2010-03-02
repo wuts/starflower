@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.8">
+	<name>
+		<en>Photos</en>
+		<es>Fotografías</es>
+		<fr>Photos</fr>
+		<de>Fotos</de>
+		<zh_CN>图像</zh_CN>
+	</name>
+	<description>
+		<en>Add photo albums and upload photos.</en>
+		<es>Agrega una galería fotográfica y sube fotos.</es>
+		<fr>Ajouter des albums photo et envoyer vos photos.</fr>
+		<de>Füge Fotoalben hinzu und lade Fotos hoch.</de>
+		<zh_CN>添加相册和上传图像.</zh_CN>
+	</description>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<is_backend_menu>0</is_backend_menu>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+</module>

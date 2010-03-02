@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+	<name>
+		<en>Variables</en>
+		<es>Variables</es>
+		<fr>Variables</fr>
+		<de>Variables</de>
+		<zh_CN>变量</zh_CN>
+	</name>
+	<description>
+		<en>Manage global variables to access from everywhere.</en>
+		<es>Manage global variables to access from everywhere.</es>
+		<fr>Manage global variables to access from everywhere.</fr>
+		<de>Manage global variables to access from everywhere.</de>
+		<zh_CN>管理可以从任何地方访问的全局变量.</zh_CN>
+	</description>
+	<is_frontend>0</is_frontend>
+	<is_backend>1</is_backend>
+	<is_backend_menu>0</is_backend_menu>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+</module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2" type="admin">
+	<name>
+		<en>Settings</en>
+		<es>Configuraciones</es>
+		<fr>Paramètres</fr>
+		<zh_CN>设置</zh_CN>
+	</name>
+	<description>
+		<en>Allows admins and staff to change website settings such as site name and description.</en>
+		<es>Permite a los administradores y al personal configurar los detalles del sitio como el nombre del sitio y la descripción del mismo.</es>
+		<fr>Permet aux admistrateurs et au personnel de modifier les paramètres du site : nom du site et description</fr>
+		<zh_CN>允许管理员和相关人员可以改变网站设置例如网站名称和描述</zh_CN>
+	</description>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+</module>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.6">
+	<name>
+		<en>Comments</en>
+		<es>Comentarios</es>
+		<fr>Commentaires</fr>
+		<de>Kommentare</de>
+		<zh_CN>评论</zh_CN>
+	</name>
+	<description>
+		<en>Users and guests can write comments for almost anything with built-in captcha support.</en>
+		<es>Los usuarios y visitantes pueden escribir comentarios en casi todo el contenido con el soporte de un sistema de captcha incluído.</es>
+		<fr>Les utilisateurs et les invités peuvent écrire des commentaires pour quasiment tout grâce au générateur de captcha intégré.</fr>
+		<de>Benutzer und Gäste können für fast alles Kommentare mit eingebauter Captcha-Unterstützung schreiben</de>
+    	<zh_CN>注册用户和陌生访客可以为任何事情撰写评论，支持验证码</zh_CN>
+	</description>
+	<is_frontend>0</is_frontend>
+	<is_backend>1</is_backend>
+	<is_backend_menu>1</is_backend_menu>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+</module>
