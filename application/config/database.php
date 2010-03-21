@@ -34,7 +34,7 @@
 // Local
 $db['local']['hostname'] = "localhost";
 $db['local']['username'] = "root";
-$db['local']['password'] = "wts7532";
+$db['local']['password'] = "w";
 $db['local']['database'] = "starflower";
 $db['local']['dbdriver'] = "mysql";
 $db['local']['dbprefix'] = "";
@@ -58,7 +58,7 @@ $db['local']['port'] 	 = 3306;
 // Live
 $db['live']['hostname'] = "localhost";
 $db['live']['username'] = "root";
-$db['live']['password'] = "wts7532";
+$db['live']['password'] = "w";
 $db['live']['database'] = "starflower";
 $db['live']['dbdriver'] = "mysql";
 $db['live']['dbprefix'] = "";
