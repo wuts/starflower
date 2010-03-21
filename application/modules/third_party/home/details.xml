@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.8">
+	<name>
+		<en>Home</en>
+		<zh_CN>主页</zh_CN>
+	</name>
+	<description>
+		<en>Home page for website.</en>
+		<de>网站首页</de>
+	</description>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<is_backend_menu>1</is_backend_menu>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+</module>

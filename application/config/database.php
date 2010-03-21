@@ -34,8 +34,8 @@
 // Local
 $db['local']['hostname'] = "localhost";
 $db['local']['username'] = "root";
-$db['local']['password'] = "";
-$db['local']['database'] = "pyrocms";
+$db['local']['password'] = "w";
+$db['local']['database'] = "starflower";
 $db['local']['dbdriver'] = "mysql";
 $db['local']['dbprefix'] = "";
 $db['local']['active_r'] = TRUE;
@@ -58,8 +58,8 @@ $db['local']['port'] 	 = 3306;
 // Live
 $db['live']['hostname'] = "localhost";
 $db['live']['username'] = "root";
-$db['live']['password'] = "";
-$db['live']['database'] = "pyrocms";
+$db['live']['password'] = "w";
+$db['live']['database'] = "starflower";
 $db['live']['dbdriver'] = "mysql";
 $db['live']['dbprefix'] = "";
 $db['live']['active_r'] = TRUE;

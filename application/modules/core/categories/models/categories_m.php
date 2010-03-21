@@ -6,7 +6,7 @@ class Categories_m extends MY_Model
     {
     	$this->db->insert('categories', array(
         	'title'=>$input['title'],
-        	'slug'=>url_title(strtolower($input['title']))
+        	'slug'=>$input['slug']
         ));
         
         return $input['title'];
@@ -16,7 +16,7 @@ class Categories_m extends MY_Model
             
 		$this->db->update('categories', array(
             'title'	=> $input['title'],
-            'slug'	=> url_title(strtolower($input['title']))
+            'slug'	=> $input['slug']
 		), array('id' => $id));
             
 		return TRUE;

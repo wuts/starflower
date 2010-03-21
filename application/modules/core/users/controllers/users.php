@@ -39,7 +39,9 @@ class Users extends Public_Controller
 				// TODO PJS Add login redirect - sends back to whatever page they were trying to get on
 	      redirect('');
 	    }
-	        
+        
+		//$this->session->set_flashdata('error',print_r($this->data));
+		//	redirect('');
 	    $this->template->build('login', $this->data);
 	}
 	

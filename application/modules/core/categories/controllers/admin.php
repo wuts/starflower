@@ -28,6 +28,7 @@ class Admin extends Admin_Controller
 	{
 		$this->load->library('validation');
 		$rules['title'] = 'trim|required|max_length[20]|callback__check_title';
+                $rules['slug'] = 'trim|required|max_length[20]';
 		$this->validation->set_rules($rules);
 		$this->validation->set_fields();
 		
@@ -62,6 +63,7 @@ class Admin extends Admin_Controller
 		
 		$this->load->library('validation');
 		$rules['title'] = 'trim|required';
+                $rules['slug'] = 'trim|required';
 		$this->validation->set_rules($rules);
 		$this->validation->set_fields();
 		

@@ -17,9 +17,10 @@
 		<p><?php echo lang('news_currently_no_articles');?></p>
 	<?php endif; ?>
 </div>
-
+<!-->
 <div class="float-right width-quater">
 	<?php $this->load->view('fragments/rss_box') ?>	
 	<hr />	
 	<?php $this->load->view('fragments/archive_box') ?>	
 </div>
+<!-->
