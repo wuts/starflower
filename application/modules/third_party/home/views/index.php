@@ -49,7 +49,7 @@
 </div>
 
 <div class="float-left width-three-quaters">
-    <h2>最新发表的科研论文</h2>
+    <h2>最新文章</h2>
     <?php if (!empty($news)): ?>
         <?php foreach ($news as $article): ?>
     <div class="article_img"><img src="<?php echo image_path('article/hj1.jpg', '') ?>" alt="" /></div>
