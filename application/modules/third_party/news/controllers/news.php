@@ -47,7 +47,7 @@ class News extends Public_Controller
 		
 		// Get the current page of news articles
 		$this->data->news = $this->news_m->limit($this->data->pagination['limit'])->get_many_by(array('category'=>$slug));
-		
+		$this->data->hot_news=$this->news_m->get_hot_news(array("category_id"=>$category->id));
 		// Set meta description based on article titles
 		$meta = $this->_articles_metadata($this->data->news);
 		

@@ -2,6 +2,7 @@
 
 // labels
 $lang['news_posted_label'] 							= '发表在'; // #translate
+$lang['news_hot_news_label']                                            = '热门新闻'; // #translate
 $lang['news_posted_label_alt']						= '发表在'; // #translate
 $lang['news_category_label'] 						= '目录';
 $lang['news_post_label'] 							= '发表';

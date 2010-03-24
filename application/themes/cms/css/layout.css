@@ -349,11 +349,14 @@ img {
 
 #footer {
 	clear: both;
-	width: 976px;
-	margin: 0 auto 2em auto;
+	width: 100%;
+	margin-left:auto;
+   margin-right:auto;
+   height:80px;
 	background: #F7F7F7 url(../img/img07.gif) repeat-x;
 	border: 1px solid #CCCCCC;
 }
+#footer p{color:white;text-align:center;}
 
 /* Footer > Legal */
 

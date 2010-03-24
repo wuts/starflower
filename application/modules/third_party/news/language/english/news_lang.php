@@ -2,6 +2,7 @@
 
 // labels
 $lang['news_posted_label'] 							= 'Posted in'; // #translate
+$lang['news_hot_news_label']                                            = 'Hot News'; // #translate
 $lang['news_posted_label_alt']						= 'Posted at'; // #translate
 $lang['news_category_label'] 						= 'Category';
 $lang['news_post_label'] 							= 'Post';

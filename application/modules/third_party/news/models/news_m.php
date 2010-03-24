@@ -187,6 +187,29 @@ class News_m extends MY_Model
         return $string ;
     }
 
+    function get_hot_news($params = array()){
+        $this->load->helper('date');
+    	
+    	$this->db->where('status', 'live');
+    	$this->db->where('created_on <=', now());
+       	if(!empty($params['category_id'])){
+           $this->db->where('category_id', $params['category_id']);
+        }
+       	$string = '';
+        $this->db->order_by('created_on', 'DESC');
+        $this->db->limit(5);
+        $query = $this->db->get('news');
+        if ($query->num_rows() > 0) {
+            $string .= '<ul>';
+            $this->load->helper('text');
+            foreach ($query->result() as $blogs) {
+                $string .= '<li>' . anchor('news/' . date('Y/m') . '/'. $blogs->slug, $blogs->title). '</li>';
+            }
+            $string .= '</ul>';
+        }
+        return $string ;
+    }
+
 	function check_slug($slug = '')
     {
 		return parent::count_by('slug', $slug) == 0;
