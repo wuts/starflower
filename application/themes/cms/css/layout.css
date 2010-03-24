@@ -218,6 +218,10 @@ img {
 	background: none;
 }
 
+#headline{
+  padding-bottom:5px;
+}
+
 /* Content */
 
 #content {

@@ -98,31 +98,13 @@
         </div>
     </div>
     <div id="updates" class="boxed">
-        <h2 class="title">最近更新</h2>
+        <h2 class="title">热门文章</h2>
         <div class="content">
 				  	{if(module_exists('news')}
-            <div id="recent-posts">
-				{$ci->news_m->get_news_fragment()}
+            <div id="host-posts">
+				{$ci->news_m->get_hot_news()}
             </div>
-			{/if}
-            <ul>
-                <li>
-                    <h3>March 5, 2007</h3>
-                    <p><a href="#">In posuere eleifend odio quisque semper augue mattis wisi maecenas&#8230;</a></p>
-                </li>
-                <li>
-                    <h3>March 3, 2007</h3>
-                    <p><a href="#">Quisque dictum integer nisl risus, sagittis convallis, rutrum id, congue, and nibh&#8230;</a></p>
-                </li>
-                <li>
-                    <h3>February 28, 2007</h3>
-                    <p><a href="#">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum&#8230;</a></p>
-                </li>
-                <li>
-                    <h3>February 25, 2007</h3>
-                    <p><a href="#">Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam nequea&#8230;</a></p>
-                </li>
-            </ul>
+			{/if}           
         </div>
     </div>
     <div id="partners" class="boxed">
